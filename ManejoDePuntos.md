@@ -111,4 +111,3 @@ Las monedas pueden gastarse en diferentes beneficios:
 ## Conclusión
 Este sistema fomenta la colaboración, el esfuerzo y el aprendizaje en equipo.  
 Planifica bien tu estrategia, gana diamantes y monedas, y utilízalos sabiamente para mejorar tu desempeño.  
-¡Juega, aprende y alcanza tus objetivos!
