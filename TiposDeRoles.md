@@ -43,6 +43,52 @@ Las responsabilidades de un Junior varían según el área en la que se especial
 
 ---
 
+## ¿Qué es un Programador Senior?
+
+Un Programador Senior es un profesional con una amplia experiencia en el desarrollo de software, capaz de abordar problemas complejos de manera independiente y de guiar a otros miembros del equipo. Este rol es fundamental para asegurar la calidad del código, optimizar el rendimiento del sistema y tomar decisiones técnicas críticas.
+
+Los Seniors no solo escriben código, sino que también realizan revisiones de código (Code Reviews), proponen mejoras en la arquitectura y colaboran estrechamente con los Leads para alinear el desarrollo con los objetivos estratégicos del proyecto. Además, tienen la responsabilidad de mentorizar a los programadores Junior, compartiendo su conocimiento y experiencia para acelerar el crecimiento del equipo.
+
+### Responsabilidades de un Programador Senior según la Especialidad
+
+#### Frontend Senior
+
+- **Revisar código**: Realizar Code Reviews detallados para garantizar buenas prácticas y calidad del código.
+
+- **Implementar features medianas**: Desarrollar características de complejidad media (3-5 Story Points) en la interfaz de usuario.
+
+- **Optimizar componentes**: Mejorar el rendimiento y la eficiencia de los componentes, asegurando tiempos de carga rápidos.
+
+#### Backend Senior
+
+- **Desarrollar funcionalidades complejas**: Implementar lógica de negocio avanzada y optimizar el rendimiento de las APIs.
+
+- **Optimizar consultas**: Mejorar la eficiencia de las bases de datos y optimizar queries para un mejor rendimiento.
+
+- **Configurar autenticación y seguridad**: Implementar medidas de seguridad avanzadas y asegurar el acceso adecuado a los sistemas.
+
+#### QA Senior
+
+- **Escribir casos de prueba por módulo**: Diseñar y ejecutar pruebas exhaustivas para validar el correcto funcionamiento de cada componente.
+
+- **Controlar pruebas de regresión**: Asegurar que los cambios no afecten las funcionalidades existentes mediante pruebas automatizadas.
+
+#### DevOps Senior
+
+- **Implementar pipelines CI/CD**: Automatizar el proceso de integración y entrega continua para mejorar el despliegue.
+
+- **Monitorear infraestructura**: Supervisar el rendimiento de los servidores, detectar errores y optimizar los recursos.
+
+#### Writer Senior
+
+- **Revisar documentación técnica**: Validar la precisión y claridad de los manuales y guías técnicas.
+
+- **Escribir guías para desarrolladores**: Crear documentos detallados que faciliten la comprensión de la arquitectura del sistema.
+
+
+
+---
+
 ## Conclusiones
 
 Conocer los diferentes tipos de programadores (Junior, Senior y Lead) es esencial para entender cómo funciona un equipo de desarrollo y cómo se distribuyen las responsabilidades. Para un Junior, este conocimiento le permite identificar qué se espera de él, qué habilidades debe desarrollar y cómo puede avanzar en su carrera. Para los Seniors y Leads, entender estos roles les ayuda a guiar a los Juniors de manera efectiva, fomentando un ambiente de aprendizaje y crecimiento.
