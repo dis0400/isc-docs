@@ -57,4 +57,4 @@ Se enumeran las tareas específicas de QA, asi tambien se explican los objetivos
 ---
 
 ## Conclusión
-El rol de QA en el sistema de gamificación es fundamental para garantizar la calidad del software. Desde la creación de test cases hasta la colaboración con otros equipos, el QA juega un papel clave en la detección y prevención de errores. Un enfoque bien estructurado en las pruebas mejora la experiencia del usuario y la estabilidad del sistema.
+En un entorno Scrum, el rol de QA es importante para garantizar entregas constantes y de calidad. Su trabajo abarca la detección de errores, y con ello ayuda a mejorar los procesos de desarrollo y colaboración dentro del equipo. QA participa en cada sprint y asegura que las funcionalidades cumplen con los requisitos antes de ser entregadas. Su integración con otros roles permite prevenir defectos antes de que lleguen al usuario final, facilitando una mejora continua en el producto.
