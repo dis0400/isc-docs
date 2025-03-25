@@ -60,12 +60,12 @@ backend/
 ├── package.json
 └── README.md
 
+```
 
 ## 🧱 Explicación de las Capas en la Arquitectura del Proyecto
 
 La arquitectura por capas divide el backend en módulos bien definidos, donde cada capa tiene una única responsabilidad. Esta separación favorece el mantenimiento, escalabilidad, reutilización de código y pruebas independientes.
 
----
 
 ### 1. 📁 `controllers/` – Controladores
 
@@ -91,6 +91,7 @@ exports.getAllUsers = async (req, res) => {
   }
 };
 
+```
 
 ### 2. 📁 `services/` – Servicios
 
@@ -109,7 +110,7 @@ const User = require('../models/user.model');
 
 exports.getAllUsers = async () => {
   return await User.find();
-};
+}; ```
 
 
 ### 3. 📁 `models/` – Modelos
@@ -131,7 +132,7 @@ const userSchema = new mongoose.Schema({
   email: String
 });
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('User', userSchema); ```
 
 
 ### 4. 📁 `routes/` – Rutas
@@ -152,7 +153,7 @@ const userController = require('../controllers/user.controller');
 
 router.get('/', userController.getAllUsers);
 
-module.exports = router;
+module.exports = router; ```
 
 ### 5. 📁 `config/` – Configuración
 
@@ -165,7 +166,7 @@ const mongoose = require('mongoose');
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('Connected to DB'))
-  .catch(err => console.error('DB Connection Error:', err));
+  .catch(err => console.error('DB Connection Error:', err)); ```
 
 
 ### 6. 📁 `middlewares/` – Middleware
@@ -184,7 +185,7 @@ module.exports = (req, res, next) => {
 
   // Si pasa la validación:
   next();
-};
+}; ```
 
 ### 7. 📁 `utils/` – Utilidades
 
@@ -197,7 +198,7 @@ const jwt = require('jsonwebtoken');
 
 exports.generateToken = (payload) => {
   return jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1d' });
-};
+}; ```
 
 ## 🔁 Flujo de Comunicación entre Capas
 
@@ -211,7 +212,7 @@ Esto asegura una separación clara de responsabilidades (SoC - Separation of Con
 Cliente → Ruta → Controlador → Servicio → Modelo → Base de Datos
              ↑        ↑           ↑         ↑
         Respuesta ← Lógica ← Reglas ← Consulta
-
+```
 
 ### 🔄 Descripción del flujo
 
