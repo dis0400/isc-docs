@@ -1,60 +1,64 @@
-# 🧪 Rol de QA en el Sistema de Gamificación
+# ✍️ Rol de Writer en el Sistema de Gamificación
 
-## 📋 Descripción
-Este documento explica las tareas específicas de un QA (Quality Assurance) para conocer las expectativas y el alcance del rol en el sistema de gamificación.  
-Se enumeran las tareas específicas de QA, así también se explican los objetivos y resultados esperados de cada tarea.
+## 📝 Descripción
+Se explican las tareas específicas de un Writer para conocer las expectativas y el alcance del rol en el sistema de gamificación.  
+Se enumeran las tareas específicas de Writer, así también se explican los objetivos y resultados esperados de cada tarea.
 
 ---
 
-## 🔍 Tareas de QA
-### 1. 📝 Escribir Test Cases
-- **🎯 Objetivo**: Crear casos de prueba para verificar que el software cumple con los requisitos.
-- **✅ Resultado esperado**: Test cases organizados y reutilizables para futuras pruebas.
-- **📌 Ejemplo**: Un test case para verificar que un usuario no puede registrarse sin una dirección de correo válida.
+## 📚 Tareas de Writer
 
-### 2. 🐞 Reportar Bugs
-- **🎯 Objetivo**: Identificar y documentar defectos en el software.
-- **✅ Resultado esperado**: Registro detallado de bugs con pasos para reproducirlos.
-- **📌 Ejemplo**: Reportar un error donde los usuarios no pueden restablecer su contraseña.
+### 1. 📑 Documentar Endpoints de API
+- **🎯 Objetivo**: Crear documentación clara y estructurada para el uso de las API.
+- **✅ Resultado esperado**: Archivos bien detallados con descripciones de los endpoints, parámetros y respuestas.
+- **📌 Ejemplo**: Documentar un endpoint `/login` con ejemplos de peticiones y respuestas.
 
-### 3. ✋ Ejecutar Pruebas Manuales
-- **🎯 Objetivo**: Validar funcionalidades sin el uso de herramientas automatizadas.
-- **✅ Resultado esperado**: Asegurar que el sistema responde correctamente a la interacción del usuario.
-- **📌 Ejemplo**: Probar el flujo de compra en una tienda online para verificar su correcto funcionamiento.
+### 2. ⚙️ Crear Documentos de Configuración del Proyecto
+- **🎯 Objetivo**: Proporcionar guías de configuración para facilitar la instalación y uso del sistema.
+- **✅ Resultado esperado**: Archivos de configuración detallados para distintos entornos (desarrollo, pruebas, producción).
+- **📌 Ejemplo**: Redactar un README con instrucciones para instalar dependencias y ejecutar el proyecto.
 
-### 4. 🔄 Control de Regression Testing
-- **🎯 Objetivo**: Garantizar que las nuevas actualizaciones no afecten funcionalidades existentes.
-- **✅ Resultado esperado**: Reportes de pruebas que confirmen que no hay regresiones en el sistema.
-- **📌 Ejemplo**: Ejecutar pruebas previas después de una actualización de software.
+### 3. 🔍 Revisar y Mantener la Documentación Técnica
+- **🎯 Objetivo**: Asegurar que la documentación esté actualizada y sin errores.
+- **✅ Resultado esperado**: Correcciones y mejoras en los documentos existentes.
+- **📌 Ejemplo**: Revisar y corregir documentación obsoleta en la wiki del proyecto.
 
-### 5. 🏗️ Diseñar Estrategia de Pruebas (Lead QA)
-- **🎯 Objetivo**: Definir procesos y metodologías de pruebas.
-- **✅ Resultado esperado**: Un plan de pruebas estructurado con métricas de calidad.
-- **📌 Ejemplo**: Establecer una estrategia de pruebas automatizadas para mejorar la cobertura.
+### 4. 👨💻 Escribir Guías para Desarrolladores
+- **🎯 Objetivo**: Crear guías para ayudar a los nuevos desarrolladores a integrarse rápidamente en el equipo.
+- **✅ Resultado esperado**: Documentos con instrucciones claras sobre estándares de código, herramientas y procesos.
+- **📌 Ejemplo**: Redactar una guía sobre el uso de Git en el proyecto.
 
-### 6. 🤝 Coordinar con Otros Equipos
-- **🎯 Objetivo**: Trabajar en conjunto con frontend, backend y devops para optimizar la calidad.
-- **✅ Resultado esperado**: Integraciones fluidas entre los distintos componentes del software.
-- **📌 Ejemplo**: Colaborar con backend para probar la estabilidad de una API antes de su lanzamiento.
+### 5. 🏷️ Definir Convenciones de Nomenclatura para el Equipo
+- **🎯 Objetivo**: Establecer reglas claras sobre la nomenclatura de archivos, variables y otros elementos.
+- **✅ Resultado esperado**: Un documento con las convenciones a seguir en el código.
+- **📌 Ejemplo**: Definir que todas las variables en JavaScript deben usar camelCase.
 
-### 7. 📊 Revisión de Logs para Reportar Bugs
-- **🎯 Objetivo**: Analizar registros del sistema en busca de errores.
-- **✅ Resultado esperado**: Identificación de fallos no detectados en pruebas manuales.
-- **📌 Ejemplo**: Detectar un error crítico en los registros de backend antes de que afecte a los usuarios.
+### 6. 🧪 Documentar Estrategias de Pruebas
+- **🎯 Objetivo**: Crear documentación detallada sobre los procesos de prueba y control de calidad.
+- **✅ Resultado esperado**: Guías que expliquen cómo se deben realizar las pruebas en el sistema.
+- **📌 Ejemplo**: Documentar los pasos para ejecutar pruebas de regresión en una nueva versión.
 
-## 📈 Progresión en el Rol de QA
+### 7. 🚀 Crear el Archivo de Releases del Proyecto
+- **🎯 Objetivo**: Mantener un registro detallado de los cambios y versiones del sistema.
+- **✅ Resultado esperado**: Un changelog estructurado con mejoras, correcciones y nuevas características.
+- **📌 Ejemplo**: Redactar un archivo `CHANGELOG.md` con las notas de la versión 1.2.0.
+
+## 📈 Progresión en el Rol de Writer
 
 ### 👶 De Junior a Senior
-- ✍️ Escribir 15 test cases manuales.
-- 🐛 Identificar y reportar 10 bugs.
-- 🔍 Revisar 5 test cases de otros compañeros.
+- ✍️ Escribir documentación para 10 endpoints de API
+- 📖 Mejorar el README del proyecto con más ejemplos y guías
+- 🏷️ Definir convenciones de nomenclatura para el equipo
+- 👋 Escribir documentación de onboarding para nuevos desarrolladores
 
 ### 👨💻 De Senior a Lead
-- 🛠️ Diseñar una estrategia de pruebas automatizadas.
-- 🤝 Coordinar con Frontend y Backend para mejorar integraciones.
-- 📉 Revisión de logs para reportar bugs.
+- 🔄 Revisar y corregir documentación de otros equipos
+- 🗂️ Implementar una estrategia para mantener la documentación actualizada
+- 🤝 Coordinar con QA para documentar estrategias de pruebas
+- 📚 Redactar una guía avanzada sobre el sistema
+- 🏷️ Crear el archivo de release detallado
 
 ---
 
 ## 🎯 Conclusión
-En un entorno Scrum, el rol de QA es fundamental para garantizar entregas constantes y de calidad. Su trabajo abarca la detección de errores, y con ello ayuda a mejorar los procesos de desarrollo y colaboración dentro del equipo. QA participa en cada sprint y asegura que las funcionalidades cumplen con los requisitos antes de ser entregadas. Su integración con otros roles permite prevenir defectos antes de que lleguen al usuario final, facilitando una mejora continua en el producto.
+El rol de Writer garantiza que toda la documentación del sistema sea clara, accesible y mantenida correctamente. A través de la estructuración de información técnica, los Writers facilitan la integración de nuevos desarrolladores, optimizan la comunicación entre equipos y aseguran que el conocimiento del proyecto esté bien documentado y disponible para futuras iteraciones.
