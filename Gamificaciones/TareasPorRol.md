@@ -1,4 +1,4 @@
-# 🧪 Rol de QA en el Sistema de Gamificación
+# 🧪 Tareas por Rol en el Sistema de Gamificación
 
 ## 📋 Descripción
 Este documento explica las tareas específicas de un QA (Quality Assurance) para conocer las expectativas y el alcance del rol en el sistema de gamificación.  
