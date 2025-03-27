@@ -2,7 +2,116 @@
 
 ## 📋 Descripción
 Se explica las tareas específicas de cada uno de los roles para conocer las expectativas y el alcance de este en el sistema de gamificación. Se enumeran las tareas específicas de los roles, así como también se explican los objetivos y resultados esperados de cada tarea.
+---
+## 🎨 Tareas de Frontend
 
+### 🐞 1. Resolver Bugs en la UI y Funcionalidad Básica
+- **🎯 Objetivo**: Corregir errores en la interfaz de usuario y pequeños fallos en la funcionalidad.
+- **✅ Resultado esperado**: Una interfaz sin errores visibles y con una experiencia fluida para el usuario.
+- **📌 Ejemplo**: Corregir un problema en el formulario de inicio de sesión donde el botón no responde.
+
+### ✨ 2. Implementar Features Pequeñas
+- **🎯 Objetivo**: Desarrollar nuevas funcionalidades de bajo impacto en la aplicación.
+- **✅ Resultado esperado**: Pequeñas mejoras en la interfaz y funcionalidades que aumenten la usabilidad.
+- **📌 Ejemplo**: Agregar un icono de carga al enviar un formulario.
+
+### 👀 3. Revisar Código y Ayudar a Juniors
+- **🎯 Objetivo**: Mejorar la calidad del código mediante revisiones y mentoría.
+- **✅ Resultado esperado**: Código optimizado y juniors con mejores prácticas de desarrollo.
+- **📌 Ejemplo**: Hacer code review en un PR de un junior y sugerir mejoras en la estructura del código.
+
+### 🛠️ 4. Implementar Features Medianas
+- **🎯 Objetivo**: Desarrollar nuevas características de mayor complejidad.
+- **✅ Resultado esperado**: Funcionalidades más avanzadas correctamente integradas en la aplicación.
+- **📌 Ejemplo**: Implementar un componente de carrusel de imágenes dinámico.
+
+### ⚡ 5. Mejorar el Rendimiento de los Componentes
+- **🎯 Objetivo**: Optimizar la carga y ejecución de los componentes en la UI.
+- **✅ Resultado esperado**: Aplicación más rápida y con una mejor experiencia de usuario.
+- **📌 Ejemplo**: Mejorar el rendimiento de un componente de listado reduciendo re-renderizados innecesarios.
+
+### 🏗️ 6. Definir la Arquitectura de Frontend
+- **🎯 Objetivo**: Establecer una estructura clara y escalable para el código frontend.
+- **✅ Resultado esperado**: Código modular, reutilizable y fácil de mantener.
+- **📌 Ejemplo**: Implementar una estructura basada en componentes y dividir responsabilidades correctamente.
+
+### 🤝 7. Coordinar con Backend y DevOps
+- **🎯 Objetivo**: Asegurar una integración eficiente entre frontend, backend y despliegues.
+- **✅ Resultado esperado**: Flujos de datos optimizados y despliegues sin errores.
+- **📌 Ejemplo**: Definir en conjunto con backend el formato de una API para optimizar la comunicación entre ambos.
+---
+### 📈 Progresión en el Rol de Frontend
+
+### 👶 De Junior a Senior
+- 🐛 Resolver 10 bugs pequeños en UI
+- ✨ Implementar 5 features pequeñas
+- 👨🏫 Completar al menos 5 code reviews de compañeros
+
+### 👨💻 De Senior a Lead
+- 🧑🏫 Mentorizar a 2 juniors con sus tareas
+- 🧩 Implementar un diseño reutilizable de componentes
+- 🚀 Liderar una sprint review con el equipo
+- ✅ Completar 5 tareas sin observaciones en el Code Review
+---
+## ⚙️ Tareas de Backend
+
+### 🐛 1. Resolver Bugs en la API y Base de Datos
+- **🎯 Objetivo**: Identificar y corregir errores en los endpoints de la API y en la gestión de la base de datos.
+- **✅ Resultado esperado**: APIs sin errores que respondan correctamente a las solicitudes.
+- **📌 Ejemplo**: Corregir un error en el endpoint de autenticación que impide a los usuarios iniciar sesión.
+
+### 🛠️ 2. Implementar Endpoints Sencillos
+- **🎯 Objetivo**: Desarrollar nuevos endpoints con funcionalidad básica.
+- **✅ Resultado esperado**: Endpoints funcionales y documentados.
+- **📌 Ejemplo**: Crear un endpoint `/usuarios` para obtener la lista de usuarios registrados.
+
+### 🧪 3. Escribir Test Unitarios Básicos
+- **🎯 Objetivo**: Validar el correcto funcionamiento de los endpoints mediante pruebas automatizadas.
+- **✅ Resultado esperado**: Test unitarios funcionales y de fácil mantenimiento.
+- **📌 Ejemplo**: Escribir pruebas para verificar que un usuario puede autenticarse correctamente.
+
+### 📝 4. Documentar Código y API
+- **🎯 Objetivo**: Mantener una documentación clara y accesible para el equipo.
+- **✅ Resultado esperado**: Código comentado y documentación actualizada de la API.
+- **📌 Ejemplo**: Crear documentación en Swagger para todos los endpoints disponibles.
+
+### 🚀 5. Implementar Features Complejas
+- **🎯 Objetivo**: Desarrollar funcionalidades avanzadas que requieran lógica de negocio elaborada.
+- **✅ Resultado esperado**: Características bien estructuradas y escalables.
+- **📌 Ejemplo**: Implementar un sistema de notificaciones en tiempo real para los usuarios.
+
+### ⚡ 6. Optimizar Queries y Mejorar el Rendimiento
+- **🎯 Objetivo**: Asegurar que las consultas a la base de datos sean eficientes y rápidas.
+- **✅ Resultado esperado**: Reducción de tiempos de respuesta y mejora en el rendimiento de la aplicación.
+- **📌 Ejemplo**: Optimizar una consulta SQL para reducir la carga en el servidor.
+
+### 🔒 7. Configurar Autenticación y Seguridad
+- **🎯 Objetivo**: Implementar mecanismos de seguridad para proteger la API y los datos del sistema.
+- **✅ Resultado esperado**: Usuarios autenticados de manera segura y protección ante ataques comunes.
+- **📌 Ejemplo**: Implementar JWT para la autenticación de usuarios.
+
+### 🏗️ 8. Diseñar Arquitectura de Microservicios
+- **🎯 Objetivo**: Desarrollar una infraestructura modular que permita escalabilidad y mantenimiento eficiente.
+- **✅ Resultado esperado**: Un sistema basado en microservicios con integración clara y eficiente.
+- **📌 Ejemplo**: Separar el servicio de autenticación en un microservicio independiente.
+
+### 🤖 9. Coordinar con DevOps para Despliegues
+- **🎯 Objetivo**: Asegurar una integración fluida entre el desarrollo y los procesos de despliegue.
+- **✅ Resultado esperado**: Despliegues optimizados y sin interrupciones.
+- **📌 Ejemplo**: Configurar variables de entorno en conjunto con DevOps para el despliegue en producción.
+---
+### 📈 Progresión en el Rol de Backend
+
+### 👶 De Junior a Senior
+- 🐛 Resolver 10 bugs en API y base de datos
+- 🛠️ Implementar 5 endpoints nuevos con pruebas unitarias
+- 👨🏫 Completar al menos 5 code reviews de compañeros
+
+### 👨💻 De Senior a Lead
+- 🧑🏫 Mentorizar a 2 juniors con sus tareas
+- 🏗️ Diseñar una arquitectura escalable
+- ⏱️ Mejorar tiempos de respuesta de una API
+- ✅ Completar 5 tareas sin observaciones en el Code Review
 ---
 ## 🔍 Tareas de QA
 ### 1. 📝 Escribir Test Cases
@@ -157,121 +266,10 @@ Se explica las tareas específicas de cada uno de los roles para conocer las exp
 - 🤝 Coordinar con QA para documentar estrategias de pruebas
 - 📚 Redactar una guía avanzada sobre el sistema
 - 🏷️ Crear el archivo de release detallado
-
----
-## 🎨 Tareas de Frontend
-
-### 🐞 1. Resolver Bugs en la UI y Funcionalidad Básica
-- **🎯 Objetivo**: Corregir errores en la interfaz de usuario y pequeños fallos en la funcionalidad.
-- **✅ Resultado esperado**: Una interfaz sin errores visibles y con una experiencia fluida para el usuario.
-- **📌 Ejemplo**: Corregir un problema en el formulario de inicio de sesión donde el botón no responde.
-
-### ✨ 2. Implementar Features Pequeñas
-- **🎯 Objetivo**: Desarrollar nuevas funcionalidades de bajo impacto en la aplicación.
-- **✅ Resultado esperado**: Pequeñas mejoras en la interfaz y funcionalidades que aumenten la usabilidad.
-- **📌 Ejemplo**: Agregar un icono de carga al enviar un formulario.
-
-### 👀 3. Revisar Código y Ayudar a Juniors
-- **🎯 Objetivo**: Mejorar la calidad del código mediante revisiones y mentoría.
-- **✅ Resultado esperado**: Código optimizado y juniors con mejores prácticas de desarrollo.
-- **📌 Ejemplo**: Hacer code review en un PR de un junior y sugerir mejoras en la estructura del código.
-
-### 🛠️ 4. Implementar Features Medianas
-- **🎯 Objetivo**: Desarrollar nuevas características de mayor complejidad.
-- **✅ Resultado esperado**: Funcionalidades más avanzadas correctamente integradas en la aplicación.
-- **📌 Ejemplo**: Implementar un componente de carrusel de imágenes dinámico.
-
-### ⚡ 5. Mejorar el Rendimiento de los Componentes
-- **🎯 Objetivo**: Optimizar la carga y ejecución de los componentes en la UI.
-- **✅ Resultado esperado**: Aplicación más rápida y con una mejor experiencia de usuario.
-- **📌 Ejemplo**: Mejorar el rendimiento de un componente de listado reduciendo re-renderizados innecesarios.
-
-### 🏗️ 6. Definir la Arquitectura de Frontend
-- **🎯 Objetivo**: Establecer una estructura clara y escalable para el código frontend.
-- **✅ Resultado esperado**: Código modular, reutilizable y fácil de mantener.
-- **📌 Ejemplo**: Implementar una estructura basada en componentes y dividir responsabilidades correctamente.
-
-### 🤝 7. Coordinar con Backend y DevOps
-- **🎯 Objetivo**: Asegurar una integración eficiente entre frontend, backend y despliegues.
-- **✅ Resultado esperado**: Flujos de datos optimizados y despliegues sin errores.
-- **📌 Ejemplo**: Definir en conjunto con backend el formato de una API para optimizar la comunicación entre ambos.
----
-### 📈 Progresión en el Rol de Frontend
-
-### 👶 De Junior a Senior
-- 🐛 Resolver 10 bugs pequeños en UI
-- ✨ Implementar 5 features pequeñas
-- 👨🏫 Completar al menos 5 code reviews de compañeros
-
-### 👨💻 De Senior a Lead
-- 🧑🏫 Mentorizar a 2 juniors con sus tareas
-- 🧩 Implementar un diseño reutilizable de componentes
-- 🚀 Liderar una sprint review con el equipo
-- ✅ Completar 5 tareas sin observaciones en el Code Review
----
-## ⚙️ Tareas de Backend
-
-### 🐛 1. Resolver Bugs en la API y Base de Datos
-- **🎯 Objetivo**: Identificar y corregir errores en los endpoints de la API y en la gestión de la base de datos.
-- **✅ Resultado esperado**: APIs sin errores que respondan correctamente a las solicitudes.
-- **📌 Ejemplo**: Corregir un error en el endpoint de autenticación que impide a los usuarios iniciar sesión.
-
-### 🛠️ 2. Implementar Endpoints Sencillos
-- **🎯 Objetivo**: Desarrollar nuevos endpoints con funcionalidad básica.
-- **✅ Resultado esperado**: Endpoints funcionales y documentados.
-- **📌 Ejemplo**: Crear un endpoint `/usuarios` para obtener la lista de usuarios registrados.
-
-### 🧪 3. Escribir Test Unitarios Básicos
-- **🎯 Objetivo**: Validar el correcto funcionamiento de los endpoints mediante pruebas automatizadas.
-- **✅ Resultado esperado**: Test unitarios funcionales y de fácil mantenimiento.
-- **📌 Ejemplo**: Escribir pruebas para verificar que un usuario puede autenticarse correctamente.
-
-### 📝 4. Documentar Código y API
-- **🎯 Objetivo**: Mantener una documentación clara y accesible para el equipo.
-- **✅ Resultado esperado**: Código comentado y documentación actualizada de la API.
-- **📌 Ejemplo**: Crear documentación en Swagger para todos los endpoints disponibles.
-
-### 🚀 5. Implementar Features Complejas
-- **🎯 Objetivo**: Desarrollar funcionalidades avanzadas que requieran lógica de negocio elaborada.
-- **✅ Resultado esperado**: Características bien estructuradas y escalables.
-- **📌 Ejemplo**: Implementar un sistema de notificaciones en tiempo real para los usuarios.
-
-### ⚡ 6. Optimizar Queries y Mejorar el Rendimiento
-- **🎯 Objetivo**: Asegurar que las consultas a la base de datos sean eficientes y rápidas.
-- **✅ Resultado esperado**: Reducción de tiempos de respuesta y mejora en el rendimiento de la aplicación.
-- **📌 Ejemplo**: Optimizar una consulta SQL para reducir la carga en el servidor.
-
-### 🔒 7. Configurar Autenticación y Seguridad
-- **🎯 Objetivo**: Implementar mecanismos de seguridad para proteger la API y los datos del sistema.
-- **✅ Resultado esperado**: Usuarios autenticados de manera segura y protección ante ataques comunes.
-- **📌 Ejemplo**: Implementar JWT para la autenticación de usuarios.
-
-### 🏗️ 8. Diseñar Arquitectura de Microservicios
-- **🎯 Objetivo**: Desarrollar una infraestructura modular que permita escalabilidad y mantenimiento eficiente.
-- **✅ Resultado esperado**: Un sistema basado en microservicios con integración clara y eficiente.
-- **📌 Ejemplo**: Separar el servicio de autenticación en un microservicio independiente.
-
-### 🤖 9. Coordinar con DevOps para Despliegues
-- **🎯 Objetivo**: Asegurar una integración fluida entre el desarrollo y los procesos de despliegue.
-- **✅ Resultado esperado**: Despliegues optimizados y sin interrupciones.
-- **📌 Ejemplo**: Configurar variables de entorno en conjunto con DevOps para el despliegue en producción.
----
-### 📈 Progresión en el Rol de Backend
-
-### 👶 De Junior a Senior
-- 🐛 Resolver 10 bugs en API y base de datos
-- 🛠️ Implementar 5 endpoints nuevos con pruebas unitarias
-- 👨🏫 Completar al menos 5 code reviews de compañeros
-
-### 👨💻 De Senior a Lead
-- 🧑🏫 Mentorizar a 2 juniors con sus tareas
-- 🏗️ Diseñar una arquitectura escalable
-- ⏱️ Mejorar tiempos de respuesta de una API
-- ✅ Completar 5 tareas sin observaciones en el Code Review
 ---
 ## 🎯 Conclusión
+- El rol de Frontend en un entorno Scrum es crucial para garantizar una experiencia de usuario fluida y eficiente. Desde la corrección de errores hasta la implementación de nuevas funcionalidades, un desarrollador frontend debe enfocarse en la calidad del código, la optimización del rendimiento y la colaboración con otros equipos.
+- El rol de Backend en un entorno Scrum es crucial para garantizar la estabilidad y eficiencia del sistema. Desde la implementación de endpoints hasta la optimización del rendimiento y la seguridad, un desarrollador Backend debe enfocarse en la calidad del código, la arquitectura escalable y la colaboración con otros equipos.
 - En un entorno Scrum, el rol de QA es fundamental para garantizar entregas constantes y de calidad. Su trabajo abarca la detección de errores, y con ello ayuda a mejorar los procesos de desarrollo y colaboración dentro del equipo.
 - El rol de DevOps garantiza la estabilidad, seguridad y eficiencia de los procesos de desarrollo y despliegue. Su trabajo permite que las aplicaciones sean más confiables y escalables, asegurando una entrega continua de valor. 
 - El rol de Writer garantiza que toda la documentación del sistema sea clara, accesible y mantenida correctamente. A través de la estructuración de información técnica, los Writers facilitan la integración de nuevos desarrolladores, optimizan la comunicación entre equipos y aseguran que el conocimiento del proyecto esté bien documentado y disponible para futuras iteraciones.
-- El rol de Frontend en un entorno Scrum es crucial para garantizar una experiencia de usuario fluida y eficiente. Desde la corrección de errores hasta la implementación de nuevas funcionalidades, un desarrollador frontend debe enfocarse en la calidad del código, la optimización del rendimiento y la colaboración con otros equipos.
-- El rol de Backend en un entorno Scrum es crucial para garantizar la estabilidad y eficiencia del sistema. Desde la implementación de endpoints hasta la optimización del rendimiento y la seguridad, un desarrollador Backend debe enfocarse en la calidad del código, la arquitectura escalable y la colaboración con otros equipos.
