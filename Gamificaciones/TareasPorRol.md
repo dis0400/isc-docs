@@ -268,7 +268,7 @@ Se explica las tareas específicas de cada uno de los roles para conocer las exp
 - 🏷️ Crear el archivo de release detallado
 ---
 ## 🎯 Conclusión
-- El rol de Frontend en un entorno Scrum es crucial para garantizar una experiencia de usuario fluida y eficiente. Desde la corrección de errores hasta la implementación de nuevas funcionalidades, un desarrollador frontend debe enfocarse en la calidad del código, la optimización del rendimiento y la colaboración con otros equipos.
+- El rol de Frontend en un entorno Scrum es importante para garantizar una experiencia de usuario fluida y eficiente. Desde la corrección de errores hasta la implementación de nuevas funcionalidades, un desarrollador frontend debe enfocarse en la calidad del código, la optimización del rendimiento y la colaboración con otros equipos.
 - El rol de Backend en un entorno Scrum es crucial para garantizar la estabilidad y eficiencia del sistema. Desde la implementación de endpoints hasta la optimización del rendimiento y la seguridad, un desarrollador Backend debe enfocarse en la calidad del código, la arquitectura escalable y la colaboración con otros equipos.
 - En un entorno Scrum, el rol de QA es fundamental para garantizar entregas constantes y de calidad. Su trabajo abarca la detección de errores, y con ello ayuda a mejorar los procesos de desarrollo y colaboración dentro del equipo.
 - El rol de DevOps garantiza la estabilidad, seguridad y eficiencia de los procesos de desarrollo y despliegue. Su trabajo permite que las aplicaciones sean más confiables y escalables, asegurando una entrega continua de valor. 
