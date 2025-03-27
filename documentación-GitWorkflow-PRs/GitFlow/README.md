@@ -46,7 +46,4 @@ Gitflow es un modelo de ramificación que estandariza la gestión de versiones, 
 **Desventajas:**
 - Puede resultar complejo para proyectos de menor escala.
 - La gestión de muchas ramas incrementa la necesidad de operaciones de merge.
-
-**Buenas prácticas:**
-- Evaluar la pertinencia de Gitflow según el tamaño y necesidades del equipo.
-- Capacitar a todos los integrantes para utilizar correctamente el modelo de ramificación.
+---

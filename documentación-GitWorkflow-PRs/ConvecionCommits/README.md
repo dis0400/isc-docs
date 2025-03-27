@@ -9,6 +9,9 @@ Un commit es un registro de los cambios realizados en el código fuente. En un e
 - Realizar commits con frecuencia para que los cambios sean más fáciles de rastrear.
 - Asegurar que cada commit represente un único propósito.
 - Mantener commits atómicos: cada uno debe representar un cambio completo y funcional.
+- Utilizar el tipo de commit adecuado según el cambio realizado.
+- Incluir ámbitos para módulos específicos cuando el proyecto lo requiera.
+- Preferir varios commits específicos en lugar de uno genérico que mezcle cambios diversos.
 
 
 #### Tipos comunes de commits
@@ -21,14 +24,10 @@ Un commit es un registro de los cambios realizados en el código fuente. En un e
 - `test`: adición o modificación de pruebas.
 - `chore`: tareas menores como actualización de dependencias o configuraciones.
 
-**Buenas prácticas:**
-- Utilizar el tipo de commit adecuado según el cambio realizado.
-- Incluir ámbitos para módulos específicos cuando el proyecto lo requiera.
-- Preferir varios commits específicos en lugar de uno genérico que mezcle cambios diversos.
 
 #### Reglas de estilo
 
-- Iniciar la descripción con un verbo en imperativo ("agrega", "corrige").
+- Iniciar la descripción con un verbo en imperativo ("feat", "fix").
 - Evitar el uso de punto final.
 - Limitar la línea de descripción a un máximo de 50 caracteres.
 - Utilizar el cuerpo para explicar detalles técnicos, si es necesario.

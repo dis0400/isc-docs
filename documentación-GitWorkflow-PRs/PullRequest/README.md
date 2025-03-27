@@ -27,7 +27,6 @@ Un Pull Request (PR) es una solicitud formal mediante la cual un desarrollador p
 
 - Emplear plantillas de Pull Request para unificar criterios de revisión.
 - Asegurarse de que el PR supere todas las pruebas automatizadas.
-- Solicitar revisión a integrantes del equipo con experiencia en la parte del sistema modificada.
 
 **Buenas prácticas:**
 - Automatizar las revisiones utilizando linters y pruebas de integración continua.
