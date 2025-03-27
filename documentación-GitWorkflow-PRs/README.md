@@ -1,4 +1,13 @@
 # Informe Git 
+
+
+## Indice 
+-[PullRequest](PullRequest/README.md)
+-[GitFlow](GitFlow/README.md)
+-[ConvecionCommits](ConvecionCommits/README.md)
+
+## Estructura
+
 ```Play_text
 ├── 1_Pull_Request/
 │   ├── que_es_un_pull_request
@@ -14,7 +23,7 @@
 │   ├── flujo_completo
 │   └── ventajas_y_desventajas
 ├── README.md
-'''
+```
 
 ## Conclusión
 
