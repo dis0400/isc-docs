@@ -6,7 +6,7 @@ CI/CD (Integración Continua y Despliegue Continuo) es una metodología que auto
 
 ---
 
-##  📚 Conceptos clave
+## 📚 Conceptos clave
 
 ### 🔄 ¿Qué es CI (Integración Continua)?
 
@@ -20,15 +20,15 @@ El Despliegue Continuo (CD) extiende la Integración Continua al automatizar el 
 
 En la práctica, el CD asegura que el software siempre esté en un estado que se pueda desplegar. Dependiendo de la estrategia adoptada, este proceso puede implicar Entrega Continua, donde el código está listo para desplegarse manualmente, o Despliegue Automático, donde los cambios se publican directamente en producción.
 
-### ✅ Beneficios de CI/CD:
+### ✅ Beneficios de CI/CD
 
 Los beneficios de implementar CI/CD son numerosos.
 
 - Permite detectar errores de forma temprana gracias a la ejecución automática de pruebas en cada cambio de código.
 
-- Se mejora la calidad del software y se reduce el tiempo que los desarrolladores gastan buscando y corrigiendo fallos. 
+- Se mejora la calidad del software y se reduce el tiempo que los desarrolladores gastan buscando y corrigiendo fallos.
 
-- Se minimizan los errores humanos al automatizar el proceso de despliegu, lo que resulta en lanzamientos más rápidos y fiables. 
+- Se minimizan los errores humanos al automatizar el proceso de `linting`, lo que resulta en lanzamientos más rápidos y fiables.
 
 - Se fomenta la colaboración entre los equipos y se estandariza la forma en la que se entrega el software, facilitando la escalabilidad y el mantenimiento a largo plazo.
 
@@ -69,7 +69,7 @@ Para comenzar con la configuración se tiene que crear el workflow:
 3. Selecciona **New workflow** > **Set up a workflow yourself**.
 4. Crea un archivo en **`.github/workflows/ci.yml`**.
 
-Posterior a dicha creación, de tiene que definir las etapas del pipeline. Un workflow está dividido en **jobs** (trabajos) que pueden contener **steps** (pasos).
+Posterior a dicha creación, se tiene que definir las etapas del pipeline. Un workflow está dividido en jobs (trabajos) que pueden contener steps (pasos).
 
 #### Ejemplo de configuración
 
@@ -103,7 +103,7 @@ Guarda el archivo y haz un **commit**.
 
 ### 🤵🏻 Configuración de CI/CD con Jenkins
 
-Para comenzar con la configuración se tiene que realizar la instalación de Jenkins
+Para comenzar con la configuración, primero se debe instalar Jenkins
 
 1. Descarga Jenkins desde [jenkins.io](https://www.jenkins.io/download/).
 2. Sigue las instrucciones de instalación para tu sistema operativo.
@@ -115,7 +115,7 @@ Una vez realizada la instalación, se continúa con la creación de un pipeline:
 2. Elige **Pipeline** y asigna un nombre.
 3. Configura el **Pipeline script**.
 
-#### Ejemplo de configuración
+#### Ejemplo de configuración (groovy)
 
 Pipeline básico en **Jenkinsfile**:
 
@@ -158,7 +158,7 @@ pipeline {
 
 Staging es un entorno de preproducción donde se prueban los cambios antes de implementarlos en producción. Este entorno simula las condiciones reales del sistema, permitiendo validar nuevas características y detectar posibles errores sin afectar a los usuarios finales.
 
-Diferencias clave entre Staging y Producción:
+Para evitar confusiones, las diferencias clave entre los entornos de Staging y Producción son:
 
 - **Aislamiento de cambios**: En staging, los desarrolladores pueden validar nuevas funciones sin comprometer el entorno de producción.
 
@@ -213,7 +213,7 @@ En este ejemplo:
 
 Para implementar un pipeline de Staging en Jenkins, se crea un Jenkinsfile que define las etapas específicas.
 
-#### Ejemplo de configuración de Staging
+#### Ejemplo de configuración de Staging (groovy)
 
 ```groovy
 pipeline {
@@ -270,12 +270,12 @@ Documentar la configuración del pipeline para el entorno de producción es fund
 
 ### 🐈 Configuración de Producción con GitHub Actions
 
-1. **Detonar el pipeline** solo en ramas de producción (por ejemplo: `main` o `release`).  
+1. **Ejecutar el pipeline** solo en ramas de producción (por ejemplo: `main` o `release`).  
 2. **Validar el código** con pruebas automatizadas (unitarias, integración, seguridad).  
 3. **Desplegar** en el entorno de producción.  
 4. **Notificar** el resultado del despliegue.
 
-####  Ejemplo de pipeline de Producción (GitHub Actions)
+#### Ejemplo de pipeline de Producción (YAML)
 
 ```yaml
 name: Production CI/CD
@@ -393,12 +393,12 @@ pipeline {
 
 - **Seguridad primero**: Usa **secrets** para manejar credenciales sensibles.  
 - **Validar antes de desplegar**: Ejecuta pruebas exhaustivas (unitarias, integración, e2e).  
-- **Rollback automatizado**: Prepara scripts para revertir despliegues fallidos.  
+- **Reversión automatizada (rollback)**: Prepara scripts para revertir despliegues fallidos.  
 - **Notificaciones**: Envía alertas a Slack, Discord o correo electrónico en caso de errores.  
 - **Versionado**: Usa etiquetas (`git tag`) para identificar versiones desplegadas.  
 
 ## 🔗 Recursos adicionales
+
 - [Documentación oficial de GitHub Actions](https://docs.github.com/en/actions)
 - [Guía de inicio de Jenkins](https://www.jenkins.io/doc/)
 - [Pipeline Syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
-
