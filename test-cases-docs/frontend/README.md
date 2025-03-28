@@ -72,6 +72,14 @@ Los Test Cases para frontend deben contener:
 | **Estado**         | ✅ Passed                                                                     |
 
 ---
+## Ejemplos en archivos .md:
+Cada uno de los ejemplos siguientes corresponen a un tipo de caso específicado dentro del documento, teniendo en cuenta la plantilla referencial y las buenas prácticas.
+
+- [`TestCaseFrontend`](../frontend/TestCaseFrontend.md)
+- [`TestCaseFrontend2`](../frontend/TestCaseFrontend2.md)  
+- [`TestCaseFrontend3`](../frontend/TestCaseFrontend3.md)  
+
+---
 
 ## Buenas prácticas
 
@@ -98,7 +106,7 @@ Los Test Cases para frontend deben contener:
 
 La estructura y convenciones presentadas en esta guía están basadas en el documento:
 
-[`TestCaseCrearCuenta.md`](../frontend/TestCaseCrearCuenta.md)  
+[`TestCase.md`](../test-case.md)  
 > Esta plantilla fue utilizada como ejemplo para estructurar correctamente los Test Cases de frontend enfocados en flujos visuales y de usuario. Incluye campos obligatorios como: ID, precondiciones, pasos, datos de prueba, resultado esperado, resultado actual y estado.
 
 ---

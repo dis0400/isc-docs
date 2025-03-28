@@ -70,6 +70,13 @@ Esta guía está enfocada en documentar correctamente **Test Cases orientados al
 | **Estado**         | ✅ Passed                                                                     |
 
 ---
+## Ejemplos en archivos .md:
+Cada uno de los ejemplos siguientes corresponen a un tipo de caso específicado dentro del documento, teniendo en cuenta la plantilla referencial y las buenas prácticas.
+
+- [`TestCaseBackend`](../backend/TestCaseBackend.md)
+- [`TestCaseBackend2`](../backend/TestCaseBackend2.md)  
+- [`TestCaseBackend3`](../backend/TestCaseBackend3.md)  
+---
 
 ## Buenas prácticas
 
@@ -94,5 +101,5 @@ Esta guía está enfocada en documentar correctamente **Test Cases orientados al
 
 La estructura y convenciones presentadas en esta guía están basadas en el siguiente formato estandarizado para pruebas de Backend:
 
-[`TestCaseBackend`](../backend/TestCaseBackend.md)  
+[`TestCaseBackend`](../test-case.md)  
 > Esta plantilla fue construida como ejemplo base para estructurar correctamente los Test Cases orientados al backend, enfocados en la validación de endpoints, payloads, respuestas JSON, códigos de estado y flujo de autenticación. Incluye campos obligatorios como: ID, precondiciones, datos de prueba, pasos, resultado esperado, resultado actual, estado y notas adicionales.
