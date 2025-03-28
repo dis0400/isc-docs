@@ -58,6 +58,6 @@ El monitoreo con logs permite detectar anomalías en el sistema en tiempo real. 
 2. **Definir alertas** basadas en patrones de errores o anomalías. 🔔
 3. **Rotación de logs** para evitar consumo excesivo de espacio. ♻️
 4. **Filtrado y clasificación** según niveles de severidad. 🏷️
-5. **Análisis en tiempo real** con dashboards interactivos. 📊🔄
+5. **Análisis en tiempo real** con dashboards interactivos. 📊
 
 Con una buena gestión de logs, se puede mejorar la estabilidad, seguridad y mantenimiento del sistema de manera eficiente. 🚀🔒🔧
