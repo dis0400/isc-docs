@@ -1,4 +1,4 @@
-# 🏗️structura del Proyecto Frontend
+# 🏗️Estructura del Proyecto Frontend
 
 Este proyecto está basado en **Vite**, **React** y **TypeScript**, y cuenta con una estructura modular, clara y escalable que busca facilitar el mantenimiento del código, promover la colaboración en equipo y mejorar la calidad del desarrollo frontend.
 
