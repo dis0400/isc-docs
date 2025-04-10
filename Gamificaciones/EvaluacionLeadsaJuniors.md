@@ -1,6 +1,6 @@
 # 📘 Sistema de Puntos para Story Points (SP)
 
-Este documento forma parte del sistema de gamificación del equipo y tiene como objetivo estandarizar la conversión de **Story Points (SP)** en **monedas** y **diamantes**, según los valores interpolados entre 0.5 y 10 SP. Además, se incluye una guía sobre cómo utilizar el archivo Excel adjunto para el seguimiento de desempeño por sprint.
+Este documento forma parte del sistema de gamificación del equipo y tiene como objetivo estandarizar la conversión de **Story Points (SP)** en **monedas** y **diamantes**, según los valores interpolados entre 0.5 y 8 SP. Además, se incluye una guía sobre cómo utilizar el archivo Excel adjunto para el seguimiento de desempeño por sprint.
 
 ---
 
@@ -47,11 +47,11 @@ Contiene la tabla interpolada desde **0.5 hasta 10 Story Points** (SP), donde ca
 
 | Story Points | Diamantes | Monedas |
 |--------------|-----------|---------|
-| 0.5          | 0.5       | 7.5     |
+| 0.5          | 0.75       | 7.5     |
 | 1.0          | 1.0       | 15.0    |
-| 1.5          | 1.25      | 20.0    |
+| 1.5          | 1.25      | 18,75    |
 | ...          | ...       | ...     |
-| 10.0         | ~6.17     | ~122.5  |
+| 8.0         | 5     | 100  |
 
 > ⚠️ Los valores han sido **interpolados linealmente** entre los valores base definidos en el sistema de gamificación.
 
