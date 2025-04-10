@@ -22,7 +22,7 @@ A partir de la tabla base definida en el sistema oficial de gamificación, se ge
 | 5            | 3         | 50      |
 | 8            | 5         | 100     |
 
-La interpolación lineal permite calcular valores intermedios desde **0.5 hasta 10 SP**.
+La interpolación lineal permite calcular valores intermedios desde **0.5 hasta 8 SP**.
 
 ---
 
