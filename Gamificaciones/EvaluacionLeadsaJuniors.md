@@ -76,11 +76,9 @@ Plantilla en blanco para registrar los datos de cada sprint:
 4. Usa los totales para premiar o dar seguimiento al rendimiento de cada miembro del equipo.
 
 ---
-## ✅ Siguiente paso
+## 👍 Siguiente paso
 
 Una vez revisado este documento, puedes abrir el archivo Excel y comenzar a registrar los Story Points de cada tarea asignada durante los sprints.
-
-Si necesitas una versión personalizada del archivo, no dudes en pedirlo. 💡
 
 ---
 
