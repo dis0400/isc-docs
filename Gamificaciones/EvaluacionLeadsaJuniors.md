@@ -34,11 +34,11 @@ Puedes descargar el archivo Excel que contiene:
 - Organización por sprint.
 - Suma total de puntos obtenidos por persona en cada sprint.
 
-👉 [📊 Descargar Excel de Puntajes](./gamificaciones_puntajes_equipo.xlsx)
+👉 [📊 Descargar Excel de Puntajes](./GamificacionesPuntajesEquipo.xlsx)
 
 ---
 
-## 📊 Archivo: `gamificaciones_puntajes_equipo.xlsx`
+## 📊 Archivo: `GamificacionesPuntajesEquipo.xlsx`
 
 Este archivo contiene:
 
